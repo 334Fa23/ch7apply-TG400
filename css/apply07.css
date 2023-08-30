@@ -1,11 +1,11 @@
 /*
-Author:
-Date:
-File Name: 
+Author:TG Akoi
+Date: August 2023
+File Name: index.html
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, h1, div {
+body, header, nav, main, footer, h1, div, section, article, aside {
     margin: 0;
     padding: 0;
     border: 0;
@@ -54,9 +54,27 @@ footer {
 	text-align: center;
 }
 
+section {
+    background-color: #183440;
+    color: #fff;
+    top margin: 4%;
+    padding: 2%;
+}
+
+article{
+    margin: 1%;
+    padding: 3%;
+}
+
+aside {
+    background color: rgba(24, 52, 64, 0,3);
+    padding: 2%;
+    top margin: 1%;
+    color: #183440;
+    box-shadow: 4px 4px 10px #183440;
+}
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 650px), print {
-    
     
 }
 
